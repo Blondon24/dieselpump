@@ -10,7 +10,7 @@ include('inc/header.php');
 <!-- Hero Section -->
 <section class="hero-section">
     <video autoplay muted loop>
-        <source src="assets/videos/hero-video.mp4" type="video/mp4">
+        <source src="assets/videos/Videos-site.mp4" type="video/mp4">
     </video>
     <div class="container">
         <div class="hero-content">

@@ -8,7 +8,7 @@ include('inc/header.php');
 <?php include('inc/navbar.php'); ?>
 
 <!-- Page Header -->
-<section class="page-header" style="background-image: url('assets/images/contact-header.jpg');">
+<section class="page-header" style="background-image: url('assets/images/image-de-fond-contact.jpg');">
     <div class="container">
         <div class="page-title">
             <h1>Contactez-nous</h1>
