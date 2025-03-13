@@ -83,8 +83,21 @@ include('inc/header.php');
             </div>
             
             <div class="col-lg-8" data-aos="fade-left">
+                <div class="contact-map mb-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615971938!3d48.85836360866272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1647697636096!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" style="height: 400px; width: 150%; border-radius: 10px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Form Section -->
+<section class="form-section section-padding" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8" data-aos="fade-up">
                 <div class="contact-form">
-                    <h3 class="mb-4">Envoyez-nous un Message</h3>
+                    <h3 class="mb-4 text-center">Envoyez-nous un Message</h3>
                     
                     <form id="contactForm" action="process-form.php" method="post">
                         <div class="row">
@@ -119,21 +132,12 @@ include('inc/header.php');
                         
                         <div id="formResponse"></div>
                         
-                        <div class="text-end">
+                        <div class="text-center">
                             <button type="submit" class="btn btn-primary">Envoyer le Message</button>
                         </div>
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Map Section -->
-<section class="map-section">
-    <div class="container-fluid p-0">
-        <div class="contact-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615971938!3d48.85836360866272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1647697636096!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 </section>
